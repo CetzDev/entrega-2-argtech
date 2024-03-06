@@ -1,4 +1,3 @@
-@media only screen and (min-width: 961px) {
 body {
     font-family: 'Noto Sans', sans-serif;
     background-color: black;
@@ -71,11 +70,7 @@ iframe {
     position: relative;
     left: 480px;
 }
-.btn-chalian {
-    background-color: white;
-    position: relative;
-    left: 180px;
-}
+
 .procesador-titulo {
     text-align: center;
 }
@@ -102,121 +97,23 @@ iframe {
     bottom: 35px;
     right: 82px;
 }
+.btn-comprar {
+    background-color: white;
+    position: relative;
+    left: 180px;
+}
 .ping {
     position: relative;
     right: 435px;
     top: 45px;
 }
+
+.footer-redes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
 }
+
 @media only screen and (max-width: 500px) {
-    body {
-        font-family: 'Noto Sans', sans-serif;
-        background-color: black;
-        color: white;
-        overflow-x: hidden;
-    }
-    .navegacion {
-        list-style-type: none;
-        text-align: center;
-        padding: 10px;
-        margin: 20px;
-    }
-    .navegacion li {
-        display: inline;
-        margin-left: 10px;
-    }
-    #navegacion-link {
-        color: white;
-        text-decoration: none;
-    }
-    .tiktok {
-        width: 60px;
-        position: relative;
-        left: 70px;
-    }
-    .twitter {
-        width: 60px;
-        position: relative;
-        left: 50px;
-    }
-    h1 {
-        text-align: center;
-        padding: 30px;
-    }
-    .linea-separacion {
-        border-top: 1px solid #ffffff;
-        position: relative;
-        bottom: 75px;
-    }
-    p{
-        text-align: center;
-    }
-    .logo {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        position: sticky;
-        position: relative;
-        top: -80px;
-        width: 80px; 
-        height: auto;
-    }
-    .maps {
-        text-align: center;  
-    }
-    iframe {
-        width: 300px;
-        height: 300px;
-        border: 1px solid rgb(255, 255, 255);
-        border-radius: 15px
-    }
-    .consulta {
-        text-align: left;
-    }
-    .search-bar {
-        width: 300px;
-        height: 70px;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        position: relative;
-        left: 480px;
-    }
-    .btn-chalian {
-        background-color: white;
-        position: relative;
-        left: 180px;
-    }
-    .procesador-titulo {
-        text-align: center;
-    }
-    .card-img {
-        border: 1px solid rgb(255, 255, 255);
-        border-radius: 15px   
-    }
-    .titulo {
-          position: relative;
-          bottom: 40px;
-    }
-    .parrafo {
-        position: relative;
-        bottom: 30px;
-    }
-    .segundo-titulo {
-        padding-bottom: 90px;
-    }
-    .tercer-titulo {
-        padding-bottom: 90px;
-    }
-    .reloj {
-        position: relative;
-        bottom: 35px;
-        right: 82px;
-    }
-    .ping {
-        position: relative;
-        right: 435px;
-        top: 45px;
-    }
+
 }
